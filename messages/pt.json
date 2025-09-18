@@ -1,0 +1,104 @@
+{
+  "Principal": {
+    "title": "Lorem ipsum dolor",
+    "description": "Doloribus omnis nulla fugit, consectetur adipiscing elit lorem velit. Ipsum quidem rerum nisi, sapiente lorenzo.",
+    "job": "Temporibus officiis lorem @EmpresaFicticia."
+  },
+  "Navigation": {
+    "work": "/work",
+    "writing": "/blog",
+    "about": "/about"
+  },
+  "HomePage": {
+    "featuredWork": "Lorem Work",
+    "viewAllWorks": "Viewum Totalium"
+  },
+   "WritingPage": {
+        "title": "Writing.",
+        "comingSoon": "One day I will have enough knowledge to write an article :)",
+        "back": "BACK"
+    },
+  "WorksPage": {
+    "back": "REVERTUM",
+    "allWorks": "MAXIMUS OPERAE"
+  },
+  "Project": {
+    "details": "Detalii",
+    "year": "Annus",
+    "duration": "Durata",
+    "role": "Functio",
+    "contribution": "Contributio",
+    "techStack": "Technologicus",
+    "links": "Linktus",
+    "problem": "Problematica",
+    "solution": "Solutio",
+    "outcome": "Resultatum",
+    "highlights": "Luminaria",
+    "video": "Videus Lorem",
+    "videoNotSupported": "Navegator non suportat videotagium.",
+    "back": "Redire ad projectae"
+  },
+  "AboutPage": {
+    "title": "Qui Sum",
+    "bio": {
+      "part1": "Lorem gravi tellus torquent quis nec sagittis lacinia dignissim pulvinar turpis facilisis.",
+      "part2": "Integer tempus ligula vel lorem semper porttitor inceptos suspendisse aptent.",
+      "part3": "Habitasse dictumst varius netus platea rhoncus nec urna, tempus lorem."
+    },
+    "downloadResume": "Downloadum Resumium",
+    "experience": "Experientia"
+  },
+  "Projects": {
+    "log-manager": {
+      "title": "Sistematis Loggus",
+      "description": "Plataformae fictus totalum loggus maximum ipsum dolor sit amet.",
+      "linkText": "Lorem Linkum",
+      "problem": "Loggum desorganizado impeditum totalum lorem dolor administratum.",
+      "solution": "APIus et database integra lorem ut clarus monitorium.",
+      "outcome": "Visibilitus augmentum systematus optimus maximus.",
+      "highlights": {
+        "0": "Restfulium API creatus in ASP.NET dolor.",
+        "1": "Emailum alertum implementatus background servitibus."
+      }
+    },
+    "anime-tracker": {
+      "title": "Animeus Tracatus",
+      "description": "App fictitius pro organizare animus visiones.",
+      "linkText": "Nemo Linkum",
+      "problem": "Utens non meminimus quod video.",
+      "solution": "Lista personalum et Jikan APIus integratus.",
+      "outcome": "Sistema responsivus, usabilitus altum.",
+      "highlights": {
+        "0": "API integratus real-time data fictum.",
+        "1": "Dashboardium personalum fictivus.",
+        "2": "Reactus et Typescriptum super velocitus UIus."
+      }
+    },
+    "expense-gov": {
+      "title": "Expensae Governamentum",
+      "description": "Translatum datasetum publicus in graphus loretum.",
+      "linkText": "Demo Vivus",
+      "problem": "Datasetum opacity maximum communitas impedit.",
+      "solution": "Visualisatio integrata cum NextumJS et Chartus.",
+      "outcome": "Claritus augmentatus, responsum positivum.",
+      "highlights": {
+        "0": "Lorem ipsum",
+        "1": "Dolor sit amet",
+        "2": "Consectetur adipiscing elit"
+      }
+    },
+    "dolly-rebrand": {
+      "title": "Rebrandus Dollyum",
+      "description": "Visualis renovatus identitas fictivum nostalgia et modernus.",
+      "linkText": "Figma Projectum",
+      "problem": "Identitas visiva antiqua non atractivum juventus.",
+      "solution": "Logo, paleta, tipografia novus modernus.",
+      "outcome": "Balanceum nostalgia et contemporaneum at maximus shelf.",
+      "highlights": {
+        "0": "Sistema visivus renovatus cum heritage consideratus.",
+        "1": "Packaging redesignus premiumum focus.",
+        "2": "Design systemum digitalem via Figma."
+      }
+    }
+  }
+}
