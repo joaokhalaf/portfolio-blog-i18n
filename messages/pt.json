@@ -5,100 +5,104 @@
     "job": "Temporibus officiis lorem @EmpresaFicticia."
   },
   "Navigation": {
-    "work": "/work",
+    "work": "/trabalhos",
     "writing": "/blog",
-    "about": "/about"
+    "about": "/sobre"
   },
   "HomePage": {
-    "featuredWork": "Lorem Work",
-    "viewAllWorks": "Viewum Totalium"
+    "featuredWork": "Projeto Destacado",
+    "viewAllWorks": "Ver Todos"
   },
-   "WritingPage": {
-        "title": "Writing.",
-        "comingSoon": "One day I will have enough knowledge to write an article :)",
-        "back": "BACK"
-    },
+  "WritingPage": {
+    "title": "Escritos",
+    "comingSoon": "Em breve alguns artigos aparecerão aqui :)",
+    "back": "VOLTAR"
+  },
   "WorksPage": {
-    "back": "REVERTUM",
-    "allWorks": "MAXIMUS OPERAE"
+    "back": "VOLTAR",
+    "allWorks": "TODOS OS TRABALHOS"
   },
   "Project": {
-    "details": "Detalii",
-    "year": "Annus",
-    "duration": "Durata",
-    "role": "Functio",
-    "contribution": "Contributio",
-    "techStack": "Technologicus",
-    "links": "Linktus",
-    "problem": "Problematica",
-    "solution": "Solutio",
-    "outcome": "Resultatum",
-    "highlights": "Luminaria",
-    "video": "Videus Lorem",
-    "videoNotSupported": "Navegator non suportat videotagium.",
-    "back": "Redire ad projectae"
+    "details": "Informações",
+    "year": "Ano",
+    "duration": "Tempo",
+    "role": "Papel",
+    "contribution": "Contribuição",
+    "techStack": "Tecnologias",
+    "links": "Links",
+    "problem": "Desafio",
+    "solution": "Abordagem",
+    "outcome": "Resultado",
+    "highlights": "Principais Pontos",
+    "video": "Demonstração",
+    "videoNotSupported": "Seu navegador não suporta este vídeo.",
+    "back": "Voltar para Trabalhos"
   },
   "AboutPage": {
-    "title": "Qui Sum",
+    "title": "Sobre",
     "bio": {
-      "part1": "Lorem gravi tellus torquent quis nec sagittis lacinia dignissim pulvinar turpis facilisis.",
-      "part2": "Integer tempus ligula vel lorem semper porttitor inceptos suspendisse aptent.",
-      "part3": "Habitasse dictumst varius netus platea rhoncus nec urna, tempus lorem."
+      "part1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "part2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "part3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
-    "downloadResume": "Downloadum Resumium",
-    "experience": "Experientia"
+    "downloadResume": "Baixar CV",
+    "experience": "Trajetória"
   },
   "Projects": {
     "log-manager": {
-      "title": "Sistematis Loggus",
-      "description": "Plataformae fictus totalum loggus maximum ipsum dolor sit amet.",
-      "linkText": "Lorem Linkum",
-      "problem": "Loggum desorganizado impeditum totalum lorem dolor administratum.",
-      "solution": "APIus et database integra lorem ut clarus monitorium.",
-      "outcome": "Visibilitus augmentum systematus optimus maximus.",
-      "highlights": {
-        "0": "Restfulium API creatus in ASP.NET dolor.",
-        "1": "Emailum alertum implementatus background servitibus."
-      }
+      "title": "Sistema de Logs",
+      "description": "Plataforma abrangente de logs para aplicações empresariais com monitoramento em tempo real e alertas.",
+      "linkText": "Ver Demonstração",
+      "problem": "Logs espalhados entre múltiplos serviços tornavam a depuração e monitoramento extremamente difíceis.",
+      "solution": "Construí um sistema centralizado de logs com API REST e dashboard em tempo real para monitoramento.",
+      "outcome": "Reduziu o tempo de depuração em 70% e melhorou a visibilidade do sistema em todas as equipes.",
+      "highlights_0": "API RESTful desenvolvida com ASP.NET Core para ingestão de dados de alta performance.",
+      "highlights_1": "Sistema de alertas por email em tempo real com limites configuráveis e notificações.",
+      "contribution_0": "Desenvolvimento de API Backend",
+      "contribution_1": "Dashboard em Tempo Real",
+      "contribution_2": "Sistema de Alertas por Email"
     },
     "anime-tracker": {
-      "title": "Animeus Tracatus",
-      "description": "App fictitius pro organizare animus visiones.",
-      "linkText": "Nemo Linkum",
-      "problem": "Utens non meminimus quod video.",
-      "solution": "Lista personalum et Jikan APIus integratus.",
-      "outcome": "Sistema responsivus, usabilitus altum.",
-      "highlights": {
-        "0": "API integratus real-time data fictum.",
-        "1": "Dashboardium personalum fictivus.",
-        "2": "Reactus et Typescriptum super velocitus UIus."
-      }
+      "title": "App de Acompanhamento de Anime",
+      "description": "Aplicativo pessoal de rastreamento de anime com integração de API para descobrir e organizar listas.",
+      "linkText": "Experimentar App",
+      "problem": "Entusiastas de anime tinham dificuldade em acompanhar o progresso de visualização e descobrir novos conteúdos.",
+      "solution": "Criei um app intuitivo com integração da API Jikan para dados completos de anime e listas personalizadas.",
+      "outcome": "Entreguei um sistema responsivo com alto engajamento do usuário e feedback positivo da comunidade.",
+      "highlights_0": "Integração com API Jikan para dados de anime em tempo real e informações abrangentes de séries.",
+      "highlights_1": "Dashboard personalizado com listas customizadas, favoritos e recursos de acompanhamento de progresso.",
+      "highlights_2": "Implementação moderna em React e TypeScript com performance otimizada e design responsivo.",
+      "contribution_0": "Design UI/UX",
+      "contribution_1": "Integração de API",
+      "contribution_2": "Gerenciamento de Estado"
     },
     "expense-gov": {
-      "title": "Expensae Governamentum",
-      "description": "Translatum datasetum publicus in graphus loretum.",
-      "linkText": "Demo Vivus",
-      "problem": "Datasetum opacity maximum communitas impedit.",
-      "solution": "Visualisatio integrata cum NextumJS et Chartus.",
-      "outcome": "Claritus augmentatus, responsum positivum.",
-      "highlights": {
-        "0": "Lorem ipsum",
-        "1": "Dolor sit amet",
-        "2": "Consectetur adipiscing elit"
-      }
+      "title": "Rastreador de Gastos Governamentais",
+      "description": "Dashboard de transparência pública transformando dados de gastos governamentais em visualizações acessíveis.",
+      "linkText": "Ver Site Online",
+      "problem": "Dados complexos de gastos governamentais permaneciam inacessíveis aos cidadãos, limitando transparência.",
+      "solution": "Desenvolvi uma plataforma de visualização interativa usando Next.js e Chart.js para apresentação clara de dados.",
+      "outcome": "Aumentou o engajamento público com dados governamentais e recebeu feedback positivo de defensores da transparência.",
+      "highlights_0": "Visualizações de dados interativas usando Chart.js para análise clara de padrões de gastos.",
+      "highlights_1": "Interface totalmente responsiva e acessível seguindo diretrizes WCAG para uso público.",
+      "highlights_2": "Pipeline de processamento de dados em Python para atualizações automatizadas de datasets governamentais.",
+      "contribution_0": "Processamento de Dados",
+      "contribution_1": "Desenvolvimento Frontend",
+      "contribution_2": "Implementação de Acessibilidade"
     },
     "dolly-rebrand": {
-      "title": "Rebrandus Dollyum",
-      "description": "Visualis renovatus identitas fictivum nostalgia et modernus.",
-      "linkText": "Figma Projectum",
-      "problem": "Identitas visiva antiqua non atractivum juventus.",
-      "solution": "Logo, paleta, tipografia novus modernus.",
-      "outcome": "Balanceum nostalgia et contemporaneum at maximus shelf.",
-      "highlights": {
-        "0": "Sistema visivus renovatus cum heritage consideratus.",
-        "1": "Packaging redesignus premiumum focus.",
-        "2": "Design systemum digitalem via Figma."
-      }
+      "title": "Redesign de Marca Vintage",
+      "description": "Renovação completa da identidade visual equilibrando herança nostálgica com apelo contemporâneo.",
+      "linkText": "Ver no Figma",
+      "problem": "Identidade visual desatualizada falhava em atrair demografias mais jovens perdendo conexão com a herança da marca.",
+      "solution": "Redesenhei o sistema completo da marca incluindo logo, paleta de cores e tipografia com sensibilidades modernas.",
+      "outcome": "Equilibrou com sucesso nostalgia com apelo contemporâneo, alcançando forte recepção do mercado e maior presença nas prateleiras.",
+      "highlights_0": "Redesign abrangente do sistema visual mantendo herança da marca enquanto moderniza o apelo.",
+      "highlights_1": "Redesign premium de embalagem com foco no impacto nas prateleiras e conexão com consumidores.",
+      "highlights_2": "Documentação completa do sistema de design digital criada no Figma para implementação consistente.",
+      "contribution_0": "Estratégia de Marca",
+      "contribution_1": "Design de Logo",
+      "contribution_2": "Criação de Sistema de Design"
     }
   }
 }
