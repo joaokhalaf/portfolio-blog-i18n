@@ -45,6 +45,7 @@ messages/                # Translation JSON files (en.json, es.json, etc.)
 
 ## Example i18n JSON
 
+```plaintext
 {
   "nav": {
     "home": "Home",
@@ -57,6 +58,7 @@ messages/                # Translation JSON files (en.json, es.json, etc.)
     "copyright": "© 2025 Your Name"
   }
 }
+```
 
 ## License
 
