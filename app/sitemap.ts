@@ -40,14 +40,6 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.6,
     })
-
-    const collegePath = (routing.pathnames['/college'] as Record<Locale, string>)[locale]
-    staticRoutes.push({
-      url: `${baseUrl}${localePrefix}${collegePath}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    })
   })
 
   return [...staticRoutes]

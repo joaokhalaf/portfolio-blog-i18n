@@ -34,11 +34,11 @@ export const metadata = {
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: Locale };
+  params: Promise<{ locale: string }>; // string fix lint erros
 }
 
 export default async function RootLayout({ children, params,}: Props) {
-  const { locale } = await Promise.resolve(params);
+  const { locale } = await params;
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
@@ -54,7 +54,7 @@ export default async function RootLayout({ children, params,}: Props) {
             <NextIntlClientProvider messages={messages}>
               <NavLinks />
               {children}
-              <FooterLinks /> 
+              <FooterLinks />
             </NextIntlClientProvider>
           </div>
         </ThemeProvider>
