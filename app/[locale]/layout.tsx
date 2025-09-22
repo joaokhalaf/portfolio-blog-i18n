@@ -54,7 +54,7 @@ export default async function RootLayout({ children, params,}: Props) {
             <NextIntlClientProvider messages={messages}>
               <NavLinks />
               {children}
-              <FooterLinks />
+              <FooterLinks /> 
             </NextIntlClientProvider>
           </div>
         </ThemeProvider>
