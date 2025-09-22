@@ -1,16 +1,29 @@
-import type { NextConfig } from "next";
-import createNextIntlPlugin from "next-intl/plugin";
+/** @type {import('next').NextConfig} */
+const withNextIntl = require('next-intl/plugin')();
 
-const withNextIntl = createNextIntlPlugin();
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   images: {
-    domains: [
-      'images.unsplash.com',
-      'plus.unsplash.com',
-      'unsplash.com'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
-};
+}
 
-export default withNextIntl(nextConfig);
+module.exports = withNextIntl(nextConfig);
