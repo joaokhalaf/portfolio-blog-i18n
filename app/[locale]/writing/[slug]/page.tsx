@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import { ArrowLeft } from 'lucide-react';
+import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 interface BlogPost {
@@ -9,6 +10,29 @@ interface BlogPost {
   date: string
   content: React.ReactNode
 }
+
+
+export async function generateMetadata({params} : BlogPostProps) : Promise<Metadata> {
+  const { slug, locale } = await params;
+  const t = await getTranslations('WritingPage');
+
+  const localePosts = posts[locale] || posts['en'];
+  const post = localePosts[slug];
+
+  if (!post) {
+    return {
+      title: "Post Not Found",
+      description: "The current blog post could not be found"
+  }
+  }
+
+  return {
+    title: `${post.title}`,
+    description: `${post.date}`,
+    keywords: " add tags",
+  }
+}
+
 
 const posts: Record<string, Record<string, BlogPost>> = {
   'en': {
